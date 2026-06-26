@@ -19,7 +19,7 @@ if user_prompt := st.chat_input("Enter your message here..."):
     with st.chat_message("assistant"):
         with st.spinner("Processing..."):
             try:
-                url1 = "http://127.0.0.1:8000/ChatBot" 
+                url1 = "https://fullstack-langchain-chatbot.onrender.com/ChatBot" 
                 params1 = {"message": user_prompt}
                 response = requests.get(url=url1, params=params1)
                 
