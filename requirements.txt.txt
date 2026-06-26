@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+langchain-openrouter
+langchain-core
+streamlit
+requests
